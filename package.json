@@ -1,0 +1,20 @@
+{
+  "name": "otp-scratch",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/qrcode": "^1.5.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "otpauth": "^9.4.1",
+    "qrcode": "^1.5.4"
+  }
+}
