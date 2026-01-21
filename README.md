@@ -27,7 +27,11 @@ generation and validation using Bun and TypeScript with the `otpauth` library.
 To run the service in the console, use the following command:
 
 ```bash
-bun run src/index.ts
+bun run start
+```
+OR
+```bash
+bun start
 ```
 
 This will start the app in the terminal, where you can see OTP generation and validation in action.
